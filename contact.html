@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./contact.css" />
+        <style>
+            body{
+                margin: 2px;
+                background-color: rgb(247, 225, 225);
+            }
+            
+        </style>
+    </head>
+    <img src="logo.png" style="width:60px; height:50px; ">
+
+<nav class="topbar" >
+    <a href="file:///C:/Users/Lenovo/Desktop/Documents/HTML/payment%20gateway/index.html" >Home</a>
+    <a href="file:///C:/Users/Lenovo/Desktop/Documents/HTML/payment%20gateway/about%20us.html"  >Who We Are</a>
+    <a href="file:///C:/Users/Lenovo/Desktop/Documents/HTML/payment%20gateway/contact.html"  >Contact</a>
+</nav>
+<body>
+    <div class="normal">
+        <p style="font-size: 30px;"><b>Contact Form</b></p>
+
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." >
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <button type="button" style="background-color: brown; color: white; border: none; border-radius: 4px; padding: 12px 10px; cursor: pointer;" onclick="alert('Your form has been submitted')"><b>Submit</b></button>
+          </form>
+        </div>
+    </div>
+</body>
+</html>
