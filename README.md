@@ -1,1 +1,1 @@
-# Paymwnt-Gateway-Integration
+# Payment-Gateway-Integration
